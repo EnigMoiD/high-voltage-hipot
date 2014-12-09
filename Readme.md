@@ -1,0 +1,1 @@
+Hipot Tester repo for Danger High Voltage! seminar
