@@ -21,10 +21,10 @@ void loop() {
   if (running) {
     analogWrite(outputPin, signal);
     signal+=1;
-    if (signal >= 255) {
+    if (signal >= 250) {
       closed();
     }
-    delay(200);
+    delay(5000);
   }
 }
 
